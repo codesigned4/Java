@@ -15,7 +15,6 @@ public class Calculator extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
@@ -47,21 +46,21 @@ public class Calculator extends javax.swing.JFrame {
         setResizable(false);
         setType(java.awt.Window.Type.UTILITY);
 
-        jPanelScreen.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jPanelScreen.setFont(new java.awt.Font("Tahoma", 1, 24)); 
 
         jTextMainScreen.setEditable(false);
         jTextMainScreen.setBackground(new java.awt.Color(211, 227, 227));
-        jTextMainScreen.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jTextMainScreen.setFont(new java.awt.Font("Tahoma", 0, 24)); 
         jTextMainScreen.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jTextMainScreen.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jTextSubscreen.setEditable(false);
         jTextSubscreen.setBackground(new java.awt.Color(224, 216, 216));
-        jTextSubscreen.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextSubscreen.setFont(new java.awt.Font("Tahoma", 0, 18)); 
         jTextSubscreen.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
 
         buttonGroup1.add(jRadioButtonOn);
-        jRadioButtonOn.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jRadioButtonOn.setFont(new java.awt.Font("Tahoma", 1, 14));
         jRadioButtonOn.setSelected(true);
         jRadioButtonOn.setText("ON");
         jRadioButtonOn.addActionListener(new java.awt.event.ActionListener() {
@@ -71,7 +70,7 @@ public class Calculator extends javax.swing.JFrame {
         });
 
         buttonGroup1.add(jRadioButtonOff);
-        jRadioButtonOff.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jRadioButtonOff.setFont(new java.awt.Font("Tahoma", 1, 14)); 
         jRadioButtonOff.setText("OFF");
         jRadioButtonOff.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,7 +113,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.setLayout(new java.awt.GridLayout(4, 4, 15, 15));
 
         jBtn7.setBackground(new java.awt.Color(240, 200, 131));
-        jBtn7.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtn7.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtn7.setText("7");
         jBtn7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,7 +123,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtn7);
 
         jBtn8.setBackground(new java.awt.Color(240, 200, 131));
-        jBtn8.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtn8.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtn8.setText("8");
         jBtn8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -134,7 +133,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtn8);
 
         jBtn9.setBackground(new java.awt.Color(240, 200, 131));
-        jBtn9.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtn9.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtn9.setText("9");
         jBtn9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -144,7 +143,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtn9);
 
         jBtnDivison.setBackground(new java.awt.Color(240, 200, 131));
-        jBtnDivison.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtnDivison.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtnDivison.setText("%");
         jBtnDivison.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,7 +153,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtnDivison);
 
         jBtn4.setBackground(new java.awt.Color(240, 200, 131));
-        jBtn4.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtn4.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtn4.setText("4");
         jBtn4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -164,7 +163,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtn4);
 
         jBtn5.setBackground(new java.awt.Color(240, 200, 131));
-        jBtn5.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtn5.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtn5.setText("5");
         jBtn5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -174,7 +173,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtn5);
 
         jBtn6.setBackground(new java.awt.Color(240, 200, 131));
-        jBtn6.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtn6.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtn6.setText("6");
         jBtn6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -184,7 +183,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtn6);
 
         jBtnMultiply.setBackground(new java.awt.Color(240, 200, 131));
-        jBtnMultiply.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtnMultiply.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtnMultiply.setText("*");
         jBtnMultiply.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,7 +193,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtnMultiply);
 
         jBtn1.setBackground(new java.awt.Color(240, 200, 131));
-        jBtn1.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtn1.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtn1.setText("1");
         jBtn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -204,7 +203,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtn1);
 
         jBtn2.setBackground(new java.awt.Color(240, 200, 131));
-        jBtn2.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtn2.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtn2.setText("2");
         jBtn2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -214,7 +213,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtn2);
 
         jBtn3.setBackground(new java.awt.Color(240, 200, 131));
-        jBtn3.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtn3.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtn3.setText("3");
         jBtn3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -224,7 +223,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtn3);
 
         jBtnMinus.setBackground(new java.awt.Color(240, 200, 131));
-        jBtnMinus.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtnMinus.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtnMinus.setText("-");
         jBtnMinus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -234,7 +233,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtnMinus);
 
         jBtn0.setBackground(new java.awt.Color(240, 200, 131));
-        jBtn0.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtn0.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtn0.setText("0");
         jBtn0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -244,7 +243,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtn0);
 
         jBtnClear.setBackground(new java.awt.Color(240, 200, 131));
-        jBtnClear.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtnClear.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtnClear.setText("C");
         jBtnClear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -254,7 +253,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtnClear);
 
         jBtnEquals.setBackground(new java.awt.Color(240, 200, 131));
-        jBtnEquals.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtnEquals.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtnEquals.setText("=");
         jBtnEquals.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -264,7 +263,7 @@ public class Calculator extends javax.swing.JFrame {
         jPanelOperations.add(jBtnEquals);
 
         jBtnSum.setBackground(new java.awt.Color(240, 200, 131));
-        jBtnSum.setFont(new java.awt.Font("Tahoma", 1, 30)); // NOI18N
+        jBtnSum.setFont(new java.awt.Font("Tahoma", 1, 30)); 
         jBtnSum.setText("+");
         jBtnSum.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -297,106 +296,105 @@ public class Calculator extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jBtn0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn0ActionPerformed
+    private void jBtn0ActionPerformed(java.awt.event.ActionEvent evt) {
                 addInput(evt.getActionCommand());
-    }//GEN-LAST:event_jBtn0ActionPerformed
+    }
 
-    private void jBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn1ActionPerformed
+    private void jBtn1ActionPerformed(java.awt.event.ActionEvent evt) {
                 addInput(evt.getActionCommand());
-    }//GEN-LAST:event_jBtn1ActionPerformed
+    }
 
-    private void jBtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn2ActionPerformed
+    private void jBtn2ActionPerformed(java.awt.event.ActionEvent evt) {
                 addInput(evt.getActionCommand());
-    }//GEN-LAST:event_jBtn2ActionPerformed
+    }
 
-    private void jBtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn3ActionPerformed
+    private void jBtn3ActionPerformed(java.awt.event.ActionEvent evt) {
                 addInput(evt.getActionCommand());
-    }//GEN-LAST:event_jBtn3ActionPerformed
+    }
 
-    private void jBtn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn4ActionPerformed
+    private void jBtn4ActionPerformed(java.awt.event.ActionEvent evt) {
                 addInput(evt.getActionCommand());
-    }//GEN-LAST:event_jBtn4ActionPerformed
+    }
 
-    private void jBtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn5ActionPerformed
+    private void jBtn5ActionPerformed(java.awt.event.ActionEvent evt) {
                 addInput(evt.getActionCommand());
-    }//GEN-LAST:event_jBtn5ActionPerformed
+    }
 
-    private void jBtn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn6ActionPerformed
+    private void jBtn6ActionPerformed(java.awt.event.ActionEvent evt) {
                 addInput(evt.getActionCommand());
-    }//GEN-LAST:event_jBtn6ActionPerformed
+    }
 
-    private void jBtn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn7ActionPerformed
+    private void jBtn7ActionPerformed(java.awt.event.ActionEvent evt) {
                 addInput(evt.getActionCommand());
-    }//GEN-LAST:event_jBtn7ActionPerformed
+    }
 
-    private void jBtn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn8ActionPerformed
+    private void jBtn8ActionPerformed(java.awt.event.ActionEvent evt) {
                 addInput(evt.getActionCommand());
-    }//GEN-LAST:event_jBtn8ActionPerformed
+    }
 
-    private void jBtn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtn9ActionPerformed
+    private void jBtn9ActionPerformed(java.awt.event.ActionEvent evt) {
                 addInput(evt.getActionCommand());
-    }//GEN-LAST:event_jBtn9ActionPerformed
+    }
 
-    private void jBtnClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnClearActionPerformed
+    private void jBtnClearActionPerformed(java.awt.event.ActionEvent evt) {
             jTextMainScreen.setText("");
             clearSubscreen();
             jTextSubscreen.setText("Clear");
             answer=0;
-    }//GEN-LAST:event_jBtnClearActionPerformed
+    }
 
-    private void jBtnDivisonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnDivisonActionPerformed
+    private void jBtnDivisonActionPerformed(java.awt.event.ActionEvent evt) {
             if(!jTextMainScreen.getText().equals(""))
             answer=Double.parseDouble(jTextMainScreen.getText());
             jTextMainScreen.setText("");
             clearSubscreen();
             jTextSubscreen.setText(evt.getActionCommand());
             control=1;
-    }//GEN-LAST:event_jBtnDivisonActionPerformed
+    }
 
-    private void jBtnMultiplyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnMultiplyActionPerformed
+    private void jBtnMultiplyActionPerformed(java.awt.event.ActionEvent evt) {
             if(!jTextMainScreen.getText().equals(""))
             answer=Double.parseDouble(jTextMainScreen.getText());
             jTextMainScreen.setText("");
             clearSubscreen();
             jTextSubscreen.setText(evt.getActionCommand());
             control=2;
-    }//GEN-LAST:event_jBtnMultiplyActionPerformed
+    }
 
-    private void jBtnMinusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnMinusActionPerformed
+    private void jBtnMinusActionPerformed(java.awt.event.ActionEvent evt) {
             if(!jTextMainScreen.getText().equals(""))
             answer=Double.parseDouble(jTextMainScreen.getText());
             jTextMainScreen.setText("");
             clearSubscreen();
             jTextSubscreen.setText(evt.getActionCommand());
             control=3;
-    }//GEN-LAST:event_jBtnMinusActionPerformed
+    }
 
-    private void jBtnSumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnSumActionPerformed
+    private void jBtnSumActionPerformed(java.awt.event.ActionEvent evt) {
             if(!jTextMainScreen.getText().equals(""))
             answer=Double.parseDouble(jTextMainScreen.getText());
             jTextMainScreen.setText("");
             clearSubscreen();
             jTextSubscreen.setText(evt.getActionCommand());
             control=4;
-    }//GEN-LAST:event_jBtnSumActionPerformed
+    }
 
-    private void jBtnEqualsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnEqualsActionPerformed
+    private void jBtnEqualsActionPerformed(java.awt.event.ActionEvent evt) {
             clearSubscreen();
             jTextSubscreen.setText(evt.getActionCommand());
             calculate();
             if(!jTextMainScreen.getText().equals(""))
             jTextMainScreen.setText(Double.toString(answer));
-    }//GEN-LAST:event_jBtnEqualsActionPerformed
+    }
 
-    private void jRadioButtonOffActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonOffActionPerformed
+    private void jRadioButtonOffActionPerformed(java.awt.event.ActionEvent evt) {
        disabled();
-    }//GEN-LAST:event_jRadioButtonOffActionPerformed
-
-    private void jRadioButtonOnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonOnActionPerformed
+    }
+    private void jRadioButtonOnActionPerformed(java.awt.event.ActionEvent evt) {
         enabled();
-    }//GEN-LAST:event_jRadioButtonOnActionPerformed
+    }
 
     public void disabled(){
         Component[] c=jPanelOperations.getComponents();
@@ -449,7 +447,6 @@ public class Calculator extends javax.swing.JFrame {
     }
     
     
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jBtn0;
     private javax.swing.JButton jBtn1;
@@ -473,5 +470,5 @@ public class Calculator extends javax.swing.JFrame {
     private javax.swing.JRadioButton jRadioButtonOn;
     private javax.swing.JTextField jTextMainScreen;
     private javax.swing.JTextField jTextSubscreen;
-    // End of variables declaration//GEN-END:variables
+    
 }
