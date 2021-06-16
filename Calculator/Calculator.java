@@ -1,4 +1,4 @@
-package calculator2;
+package calculator;
 
 import java.awt.Component;
 import javax.swing.JButton;
