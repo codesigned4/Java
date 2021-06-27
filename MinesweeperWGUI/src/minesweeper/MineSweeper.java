@@ -181,8 +181,8 @@ public class MineSweeper implements MouseListener{
         Btn b=(Btn) e.getComponent();
         if(e.getButton()==1){            
             if(b.isMine()){
-                JOptionPane.showMessageDialog(frame, "You Stepped on a Mine.Game Over");
                 labelSmile.setIcon(new ImageIcon(getClass().getResource("/icons/sad.png")));
+		JOptionPane.showMessageDialog(frame, "You Stepped on a Mine.Game Over");               
                 openBomb();
                 setDisabledButtons();
                  
