@@ -114,7 +114,7 @@ public class MineSweeperLevel2 implements MouseListener{
     public void generateMine(){
         int i=0;
         int x,y;
-        while(i<100){            
+        while(i<50){            
             x=(int) (Math.random()*20);
             y=(int) (Math.random()*20);
             while(board[y][x].isMine()){
